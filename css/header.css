@@ -1,0 +1,64 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px 15px 40px;
+}
+
+.logo {
+    color: #fff;
+    transition: color .5s;
+    user-select: none;
+}
+
+.logo-inventory {
+    color: #0179e9;
+    transition: color .5s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-link:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    border-radius: 3px;
+    left: 0;
+    bottom: -10px;
+    transition: width .5s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.login-btn {
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    border-radius: 5px;    
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color .5s;
+    position: relative;
+}
+
+.login-btn:hover {
+    color: #fff;
+    background-color: transparent;
+}
