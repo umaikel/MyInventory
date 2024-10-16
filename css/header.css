@@ -2,17 +2,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 40px 15px 40px;
+    padding: 10px 40px 10px 40px;
+    background: transparent;
+    border-bottom: 2px solid rgba(0, 0, 0, .1);
 }
 
 .logo {
-    color: #fff;
+    color: #d48712;
     transition: color .5s;
     user-select: none;
 }
 
 .logo-inventory {
-    color: #0179e9;
+    color: #4d4d4d;
     transition: color .5s;
 }
 
@@ -46,19 +48,19 @@ nav {
     width: 100%;
 }
 
-.login-btn {
-    padding: 10px 30px;
-    border: 2px solid #fff;
-    border-radius: 5px;    
-    color: #000;
+.nav-btn {
+    padding: 10px 35px;
+    border: none;
+    border-radius: 7px;    
+    color: #fff;
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
+    background-color: #1f84ff;
     transition: background-color .5s;
     position: relative;
 }
 
-.login-btn:hover {
-    color: #fff;
-    background-color: transparent;
+.nav-btn:hover {
+    background-color: #006ff8;
 }
