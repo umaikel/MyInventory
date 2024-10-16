@@ -6,8 +6,6 @@ MyInventory it's a web application for inventory control system that can be used
 Building
 
 ## Tecnologies
-- Java
-- SQL
 - HTML
 - CSS
 
